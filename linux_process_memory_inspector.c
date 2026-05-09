@@ -172,7 +172,7 @@ int main()
 	int pid = 0;
 	
 	printf("----------------------------------------------------------\n");
-	printf("----------- Rushikesh Process Inspector -----------------\n");	
+	printf("----------- Linux Process Memory Inspector -----------------\n");	
 	printf("----------------------------------------------------------\n");
 	
 	printf("Enter the PID of a process that you want to inspect\n");	
