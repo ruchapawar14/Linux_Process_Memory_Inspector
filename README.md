@@ -1,4 +1,4 @@
-# 🧠 Linux Process Memory Inspector
+# Linux Process Memory Inspector
 
 > A Linux system programming project in C that analyzes the memory layout of a running process using the `/proc` filesystem.
 
@@ -96,7 +96,7 @@ This project demonstrates core concepts of **Linux System Programming, Proc File
 ## ▶️ Compilation
 
 ```bash
-gcc inspector.c -o inspector
+gcc Linux_Process_Memory_Inspector.c -o Linux_Process_Memory_Inspector
 ```
 
 ---
@@ -104,7 +104,7 @@ gcc inspector.c -o inspector
 ## ▶️ Execution
 
 ```bash
-./inspector
+./Linux_Process_Memory_Inspector
 ```
 
 Enter a valid PID when prompted.
@@ -129,17 +129,6 @@ Threads: 1
 55d8f7f00000 55d8f7f21000 132 r-xp TEXT /usr/bin/bash
 7ffd2d0b9000 7ffd2d0da000 132 rw-p STACK [stack]
 ```
-
----
-
-## 🚀 Future Enhancements
-
-- Colored terminal output
-- Shared library detection
-- Export analysis report
-- GUI-based interface
-- Process listing feature
-- Advanced memory statistics
 
 ---
 
